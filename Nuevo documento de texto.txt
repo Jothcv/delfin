@@ -1,0 +1,13 @@
+if( dos>tres && tres>uno)
+   document.write("el mayor es"+dos)
+   document.write("el intermedio"+tres)
+   document.write("el menor "+uno)
+
+if( tres<uno && uno<dos)
+   document.write("el mayor es: "+dos)
+   ocument.write("el intermedio: "+uno)
+   document.write("el menor: "+tres)
+if( tres>uno && tres>dos)
+   document.write("el mayor es: ")
+   document.write("el intermedio: ")
+   document.write("el menor ")
