@@ -23,11 +23,11 @@
 //document.write (suma*60)
 
 //pedir el ingreso de numero , desenas y centenas etc
-var num1 = parseInt(prompt("ingrese una cantidad de dos digitos"))
-var num2 = parseInt()
-var suma
-suma = (parseInt(num1));
-document.write ("decenas son: ");
-document.write ( suma=num1 );
-document.write ("unidades son: ");
-document.write (suma/10)
+//var num1 = parseInt(prompt("ingrese una cantidad de dos digitos"))
+//var num2 = parseInt()
+//var suma
+//suma = (parseInt(num1));
+//document.write ("decenas son:");
+//document.write ( suma/10 );
+//document.write ("unidades son:");
+//document.write (suma)
