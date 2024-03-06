@@ -27,56 +27,61 @@
 
 
 //ejercicio 1
-
-//var mez = prompt("mez")
-//var dia = prompt("dia")
-//if ((mez=="marzo") && (dia<=21)|| (mez=="abril") && (dia<=19))
-//{
-//    document.write("eres aries")
-//}
-//else if ((mez=="abirl") && (dia>=20) || (mez=="mayo") && (dia<=20))
-//{
-//    document.write("tauro")
-//}
-//else if ((mez=="mayo") && (dia>=21) || (mez=="junio") && (dia<=20) )
-//{
-//document.write("geminis")
-//}
-//else if ((mez=="junio") && (dia>=21) || (mez=="julio") && (dia<=22) )
-//{
-//document.write("cancer")
-//}
-//else if ((mez=="julio") && (dia>=23) || (mez=="agosto") && (dia<=22) )
-//{
-//document.write("leo")
-//}
-//else if ((mez=="agosto") && (dia>=23) || (mez=="septiembre") && (dia<=22) )
-//{
-//document.write("virgo")
-//}
-//else if ((mez=="septiembre") && (dia>=23) || (mez=="octubre") && (dia<=22) )
-//{
-//document.write("libra")
-//}
-//else if ((mez=="octubre" ) && (dia>=23) || (mez=="noviembre") && (dia<=21) )
-//{
-//document.write("escorpio")
-//}
-//else if ((mez=="noviembre") && (dia>=22) || (mez=="diciembre") && (dia<=21) )
-//{
-//document.write("sagitario")
-//}
-//else if ((mez=="diciembre") && (dia>=22) || (mez=="enero") && (dia<=19) )
-//{
-//document.write("capricornio")
-//}
-//else if ((mez=="enero") && (dia>=20) || (mez=="febrero") && (dia<=18) )
-//{
-//document.write("acuario")
-//}
+let menu=parseInt(prompt("menu \n 1. Signo zodiacal \n 2. Mayor, intermedio, menor"))
+switch (menu){
+    case 1:
+        var mez = prompt("mez")
+        var dia = prompt("dia")
+        if ((mez=="marzo") && (dia<=21)|| (mez=="abril") && (dia<=19))
+            {
+                document.write("eres aries")
+            }
+        else if ((mez=="abirl") && (dia>=20) || (mez=="mayo") && (dia<=20))
+            {
+            document.write("tauro")
+            }
+        else if ((mez=="mayo") && (dia>=21) || (mez=="junio") && (dia<=20) )
+            {
+            document.write("geminis")
+            }
+        else if ((mez=="junio") && (dia>=21) || (mez=="julio") && (dia<=22) )
+            {
+            document.write("cancer")
+            }
+         else if ((mez=="julio") && (dia>=23) || (mez=="agosto") && (dia<=22) )
+            {
+            document.write("leo")
+            }
+        else if ((mez=="agosto") && (dia>=23) || (mez=="septiembre") && (dia<=22) )
+            {
+            document.write("virgo")
+            }
+        else if ((mez=="septiembre") && (dia>=23) || (mez=="octubre") && (dia<=22) )
+            {
+            document.write("libra")
+            }
+        else if ((mez=="octubre" ) && (dia>=23) || (mez=="noviembre") && (dia<=21) )
+            {
+            document.write("escorpio")
+            }
+        else if ((mez=="noviembre") && (dia>=22) || (mez=="diciembre") && (dia<=21) )
+            {
+            document.write("sagitario")
+            }
+        else if ((mez=="diciembre") && (dia>=22) || (mez=="enero") && (dia<=19) )
+            {
+            document.write("capricornio")
+            }
+        else if ((mez=="enero") && (dia>=20) || (mez=="febrero") && (dia<=18) )
+            {
+            document.write("acuario")
+            }
+        break;
+        }      
+        
 
 //ejercicio 2
-/*
+
 var uno=prompt("primer numero")
 var dos=prompt("segundo numero")
 var tres=prompt("tercer numero")
@@ -119,10 +124,3 @@ else if( dos>uno && uno>tres){
    document.write("el mayor es: "+dos)
    document.write("el intermedio; "+uno)
    document.write("el menor "+tres)}
-*/
-
-//ejercicio 3
-
-
-
-
